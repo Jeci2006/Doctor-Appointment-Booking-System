@@ -2,15 +2,11 @@
 
 A full-stack **Doctor Appointment Booking System** developed using the **MERN Stack (MongoDB, Express.js, React.js, and Node.js)**. The system provides a secure and efficient platform for managing doctor appointments through role-based access for **Admin**, **Doctor**, and **Patient**.
 
----
-
 ## Project Overview
 
 The Doctor Appointment Booking System simplifies the appointment scheduling process by allowing patients to book appointments with doctors based on their availability. The system also enables doctors to manage appointment requests and update their consultation schedules, while administrators manage both doctors and patients.
 
 The application uses **JWT Authentication** for secure login, **MongoDB** for data storage, and **Nodemailer** for sending appointment-related email notifications.
-
----
 
 ## Features
 
@@ -37,7 +33,6 @@ The application uses **JWT Authentication** for secure login, **MongoDB** for da
 - Manage patient accounts.
 - Monitor appointments and overall system activities.
 
----
 
 ## Authentication & Security
 
@@ -46,8 +41,6 @@ The application uses **JWT Authentication** for secure login, **MongoDB** for da
 - Role-Based Access Control (Admin, Doctor, Patient)
 - Protected Routes
 - Secure REST API Architecture
-
----
 
 ## Tech Stack
 
@@ -74,11 +67,8 @@ The application uses **JWT Authentication** for secure login, **MongoDB** for da
 - Nodemailer (Email Notifications)
 - Git & GitHub
 
----
-
 ##  Project Structure
 
-```
 Doctor-Appointment-Booking-System
 │
 ├── backend
@@ -100,9 +90,6 @@ Doctor-Appointment-Booking-System
 ├── .gitignore
 ├── LICENSE
 └── README.md
-```
-
----
 
 ## Installation
 
@@ -112,8 +99,6 @@ Doctor-Appointment-Booking-System
 git clone https://github.com/Jeci2006/Doctor-Appointment-Booking-System.git
 ```
 
----
-
 ### Backend Setup
 
 ```bash
@@ -121,9 +106,6 @@ cd backend
 npm install
 npm start
 ```
-
----
-
 ### Frontend Setup
 
 ```bash
@@ -131,8 +113,6 @@ cd frontend
 npm install
 npm run dev
 ```
-
----
 
 ##  Environment Variables
 
@@ -155,9 +135,6 @@ TWILIO_ACCOUNT_SID=your_twilio_account_sid
 TWILIO_AUTH_TOKEN=your_twilio_auth_token
 TWILIO_PHONE_NUMBER=your_twilio_phone_number
 ```
-
----
-
 ## Workflow
 
 1. Patient registers and logs into the system.
@@ -169,8 +146,6 @@ TWILIO_PHONE_NUMBER=your_twilio_phone_number
 7. If the doctor changes the appointment schedule or availability, the patient receives an updated email notification.
 8. Administrator manages doctors, patients, and overall system operations.
 
----
-
 ## Email Notification Features
 
 The system automatically sends email notifications for:
@@ -179,8 +154,6 @@ The system automatically sends email notifications for:
 - Appointment Rejection
 - Schedule Updates
 - Availability Changes
-
----
 
 ## Future Enhancements
 
@@ -192,18 +165,3 @@ The system automatically sends email notifications for:
 - Appointment Reminder Notifications
 - Doctor Ratings and Reviews
 
----
-
-##  Author
-
-**Jeci Carmel A**
-
-Bachelor of Engineering – Computer Science and Engineering
-
-GitHub: https://github.com/Jeci2006
-
----
-
-## ⭐ Support
-
-If you found this project useful, please consider giving it a ⭐ on GitHub.
