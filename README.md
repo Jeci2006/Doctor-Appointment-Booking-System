@@ -67,30 +67,6 @@ The application uses **JWT Authentication** for secure login, **MongoDB** for da
 - Nodemailer (Email Notifications)
 - Git & GitHub
 
-##  Project Structure
-
-Doctor-Appointment-Booking-System
-│
-├── backend
-│   ├── controllers
-│   ├── middleware
-│   ├── models
-│   ├── routes
-│   ├── utils
-│   ├── package.json
-│   └── server.js
-│
-├── frontend
-│   ├── public
-│   ├── src
-│   ├── package.json
-│   └── vite.config.js
-│
-├── .env.example
-├── .gitignore
-├── LICENSE
-└── README.md
-
 ## Installation
 
 ### Clone the Repository
